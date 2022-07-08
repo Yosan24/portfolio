@@ -1,20 +1,347 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <head>
+      
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    </style>
     <link rel="stylesheet" href="style.css">
     <!-- Latest compiled and minified CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-<!-- Latest compiled JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="jquery-3.6.0.min.js"></script>
-    <title>Document</title>
-</head>
-<body>
-    
-    <script src="javascript.js"></script>
-</body>
+    <!-- <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Poppins:wght@200&family=Shrikhand&family=The+Nautigal:wght@700&family=Trispace:wght@100&display=swap"
+        rel="stylesheet"> -->
+       
+        <script
+        src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script
+        src=" https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <!-- <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="jquery-3.6.0.min.js"></script>
+
+    <script src="script.js"></script>
+    <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+        rel="stylesheet">
+        <script src="https://kit.fontawesome.com/9ee3dcef9f.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Mingzat&display=swap" rel="stylesheet">
+    <body class="dark-mode">
+        <div>
+
+
+
+
+            <nav>
+                <ul>
+                    <li class="toggle-btn"><button onclick="myFunction()">Toggle</button></li>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#invol">Involvement</a></li>
+                    <li><a href="#Work">Work</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+
+
+
+
+
+
+            <!--MY NAME ANIMATED AS A HEADING-->
+            <a name="Home"></a>
+            <div id="Home">
+                <section>
+                    <div class="row">
+                        <div class="col">
+                            <h3 class="animate-charcter"> YOSAN <br> TEKLE</h3>
+                        </div>
+                        <div class="col aspiration">
+                            <h4>I am an aspiring Data Analyst <br> based in
+                                Indianapolis, IN. <br> I would be delighted to
+                                work with you.</h4>
+                            <br>
+                            <br>
+                            <a href="#Contact"><button type="button">GET IN TOUCH</button></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <a name="About"></a>
+            <div class="About" id="About">
+                <section class="about">
+                    <div class="topic">
+                        <img
+                            src="about me.jpg">
+                        <div class="about-text">
+                            <h1>About Me</h1>
+                            <h5>High School<span> Student</span></h5>
+                            <p>Yosan Tekle here; nice to meet you. I'm a catapult at Butler University, where I'm doing my summer internship program. I speak Tigrinya, Amharic, and of course English fluently. I like to code, read, journal, and play tennis. I am a committed and receptive individual. Growing up, I was always curious about how computers worked and were built. I was motivated to join the Catapult program because of this.</p>
+                        </div>
+                      
+                    </section>
+ 
+               <section>
+                 <!-- Slideshow container -->
+                 <h1>My Family</h1>
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade active">
+      <div class="numbertext">1 / 5</div>
+      <img src="sunday church.JPG" style="width:100%">
+      <div class="text">Sunday Church</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 5</div>
+      <img src="easter holiday.JPG" style="width:100%">
+      <div class="text">Easter Holiday Breakfast Buffet</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 5</div>
+      <img src="my mom.JPG" style="width:100%">
+      <div class="text">My MoM</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 5</div>
+        <img src="https://mail.google.com/mail/u/0?ui=2&ik=47124094ee&attid=0.3&permmsgid=msg-a:r-6679980030725938594&th=181d3fb94f808861&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ95U2SvkDU42nbAxHfukQlK0AzjZ6_M2c0Wc_K_FNZhzrs05HoriBTMlQN1eYhaT311dHx83CZjyrHXJZnI61ShBnpRwnIZvO20cLBd_TD3oyOKMjtpEedROak&disp=emb&realattid=181d3fb3652207cf5f02" style="width:100%">
+        <div class="text">My Sisters and I</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 5</div>
+        <img src="IMG-2725.png" style="width:100%">
+        <div class="text">My Sisters and I with my Dad</div>
+      </div>
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+  </div>
+         </section>    
+          <section>
+        <a name="invol"></a>
+        <div class="invol" id="invol">
+            <section class="involvment row">
+                <h2>Clubs and Experience</h2> 
+                <div class="team">
+                    <div class="card">
+                       <div class="side side1">
+                          <div class="img-info">
+                             <img src=" Key Club Group Photo 2 of 3 - best.jpg">
+                          </div>
+                       </div>
+                       <div class="side side2">
+                          <div class="img-info">
+                            <h2>Key Club</h2>
+
+                             <p>I joined Key Club in 2021. I love helping others and I like seeing the community grow together. I am one of the officers, a webmaster and an editor. I am also involved in membership which I persuade more students to join Key Club. I am currenty working on a website for Key Club.</p> </p>
+                             <a href="https://www.keyclub.org/">More Info</a>
+                          </div>
+                       </div>
+                    </div>
+                    <div class="card">
+                       <div class="side side1">
+                          <div class="img-info">
+                             <img src="https://bloximages.chicago2.vip.townnews.com/cecildaily.com/content/tncms/assets/v3/editorial/1/43/143cb1d1-dce3-55a4-9f83-2e12747235f8/5654d636c67a2.image.jpg?resize=1200%2C964">
+                            
+                          </div>
+                       </div>
+                       <div class="side side2">
+                          <div class="img-info">
+                            <h2>Girls Who Code</h2>
+                             <p>I joined Girls Who Code last year, I taught elementary and middle school students how to code on finch robot and they made code for the finch to move around a maze.</p>
+                             <a href="https://girlswhocode.com/">More Info</a>
+                          </div>
+                       </div>
+                    </div>
+                    <div class="card">
+                       <div class="side side1">
+                          <div class="img-info">
+                             <img src="https://www.insideindianabusiness.com/wp-content/uploads/2021/09/14102491_G.jpg">
+                          </div>
+                       </div>
+                       <div class="side side2">
+                          <div class="img-info">
+                            <h2>Nextech</h2>
+                             <p>I am in a four weeks program in nextech as a Catapult. I am so proud to call myself a catapult and to be one. Nextech has been my second home, and I enjoyed coming here.</p>
+                             <a href="https://nextech.org/">More Info</a>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+                </section>
+             
+
+                 <div class="skill">
+                    <h1>My Skills</h1>
+                    <ul>
+                    <li><h3>HTML</h3>
+                    <span class="bar"> <span class="html"></span>
+                </li>
+                <li><h3>CSS</h3>
+                    <span class="bar"> <span class="css"></span>
+                </li>
+                <li><h3>JavaScript</h3>
+                    <span class="bar"> <span class="js"></span>
+                </li>
+                <li><h3>Jquery</h3>
+                    <span class="bar"> <span class="jquery"></span>
+                </li></ul>
+                 </div>
+
+        <a name="Work"></a>
+        <div class="Work" id="Work">
+            <section class="work">
+
+                <div class="projects">
+
+                    <h1>Projects</h1>
+                    <div class="proj-row">
+                        <a
+                            href="https://620d6a7de67d3.site123.me/">
+                            <img
+                                src="https://rahsville.org/wp-content/uploads/2019/11/Key-Club.png"
+                                width="300" height="300" alt="projects">
+                        </a>
+
+
+                        <a
+                            href="https://studio.code.org/projects/applab/1z4Yd3J7g1uEs22vSZ-_VfL2-WjnxplcCASg2UR0ZCU">
+                            <img
+                                src="https://th.bing.com/th/id/R.c4dbb211dd90276a70cf536182b84ce5?rik=VrvBZOFoNAlGHw&riu=http%3a%2f%2fpbygenval.org%2fwp-content%2fuploads%2fsites%2f25%2f2013%2f02%2fcommunity-events.jpg&ehk=IVIsiDeTzRK9o%2fXkPu%2bY49VgfNOyl2NadhB72ldcxII%3d&risl=&pid=ImgRaw&r=0"
+                                width="300"
+                                height="300" alt="projects">
+                        </a>
+
+                        <a
+                            href="https://studio.code.org/projects/applab/1TqWFm-69ZZ98bedR1V3iF6lVNcxGZS5-Nh9C2BcE-g">
+                            <img
+                                src="and.png"
+                                width="300" height="300" alt="projects">
+                        </a>
+                    </div>
+                    <div class="proj-row">
+
+                        <a
+                            href="https://popcode.org/?snapshot=50ef5251-88b4-4f31-8a30-7477325e5b59">
+                            <img
+                                src="heritage.png"
+                                width="300"
+                                height="300" alt="projects">
+                        </a>
+
+                        <a
+                            href="https://popcode.org/?snapshot=a3ae65cc-bf42-4b4f-82e5-a2e828ca093b">
+                            <img
+                                src="dog.png"
+                                width="300" height="300" alt="projects">
+                        </a>
+
+                        <a
+                        href="https://popcode.org/?snapshot=e0860e29-ec97-4e90-b09e-419ae8ac1ea1">
+                        <img
+                            src="subjects.png"
+                            width="300" height="300" alt="projects">
+                    </a>    
+                       
+                    </div>
+                </div>
+            </div>
+
+            </section>
+
+            <a name="Contact"></a>
+            <section class="content row">
+                <h1>Contact Me</h1>
+
+                <div class="col">
+
+                    <div class="contact-info">
+                        <div class="box">
+                            <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="text">
+                                <h5>Address</h5>
+                                <p> 425 Butler University, <br>Indianapolis,IN<br> 46208</p>
+                            </div>
+                        </div>
+                        
+                        <div class="box">
+                            <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="text">
+                                <h5>Phone No.</h5>
+                                <p>208-488-9793 </p>
+                            </div>
+                        </div>
+                        
+                        <div class="box">
+                            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="text">
+                                <h5>Email</h5>
+                                <p> tekleyosan15@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                <ul class="icons">
+                <li><a href="https://www.linkedin.com/feed/"><span class="fab fa-linkedin"></span></a></li>
+                <li><a href="https://github.com/Yosan24"><span class="fab fa-github"></span></a></li>
+             </ul>
+             </div>
+             <form action="https://formsubmit.co/tekleyosan15@gmail.com" method="POST" class="col">
+                    <div class="input-group">
+                 <input type="text" id="name" required>
+                 <label for="name"> <i class="fa-solid fa-user"></i>  Your Name</label>
+                   </div>
+
+                        <div class="input-group">
+                        <input type="text" id="number" required>
+                        <label for="number"> <i class="fa-solid fa-square-phone"></i> Phone No.</label>
+                        </div>                             
+
+                        <div class="input-group">
+                        <input type="email" id="email" required>
+                        <label for="email"> <i class="fa-solid fa-envelope"></i> Email</label>
+                        </div>
+
+                        <div class="input-group">
+                        <textarea id="message" rows="8" required></textarea>
+                        <label for="message"> <i class="fa-solid fa-message"></i> Your Message</label>
+                        </div>
+                        
+                        <button type="submit"> <i class="fa-solid fa-paper-plane"></i></button>
+                        </a>
+                    </form>
+                
+             </div>
+             <a href="https://docs.google.com/document/d/1-Ir-ncwG32BTbLq0kHfuTrw9arBKeDKjuuJjGpEqHEQ/edit">Citation</a>
+             <a href="https://docs.google.com/document/d/1-VQoVkNOJm32UzHfAfAOuGqtbuZmPbzMhiA_DqnKy1E/edit#">Credits</a>
+          
+         </section>
+
+            <script src="javascript.js"></script>
+            
+    </body>
+
 </html>
